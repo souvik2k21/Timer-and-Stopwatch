@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* Gradient background */
+body {
+  background: linear-gradient(to bottom right, #ce69f3, #22f7e8);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Timer and Stopwatch container */
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Timer and Stopwatch headings */
+.container h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+/* Timer and Stopwatch display */
+.container h3 {
+  text-align: center;
+  font-size: 32px;
+}
+
+/* Button group in Timer and Stopwatch */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* To wrap buttons if they don't fit in one line */
+  margin-top: 15px;
+}
+
+/* Compact buttons */
+.btn {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+/* Lap times in Stopwatch */
+.container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container li {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+/* Space between containers */
+.container + .container {
+  margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container h2 {
+    font-size: 20px;
+  }
+
+  .container h3 {
+    font-size: 28px;
+  }
+
+  /* Adjust compact buttons for smaller screens */
+  .btn {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}
