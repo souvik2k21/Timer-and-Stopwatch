@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="container">
       <h1 className="mt-5 mb-3 text-center">Timer and Stopwatch</h1>
-      // <p className="mt-5 mb-3 text-center">Made with ❤️ by SVK</p>
+      <p className="mt-5 mb-3 text-center">Made with ❤️ by SVK</p>
       <div className="row">
         <div className="col-md-6">
           <Timer />
