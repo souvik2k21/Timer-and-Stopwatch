@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/CodeClauseInternship_Timer-and-Stopwatch/static/css/main.1780dd98.css",
-    "main.js": "/CodeClauseInternship_Timer-and-Stopwatch/static/js/main.ceefb1c8.js",
-    "index.html": "/CodeClauseInternship_Timer-and-Stopwatch/index.html",
-    "main.1780dd98.css.map": "/CodeClauseInternship_Timer-and-Stopwatch/static/css/main.1780dd98.css.map",
-    "main.ceefb1c8.js.map": "/CodeClauseInternship_Timer-and-Stopwatch/static/js/main.ceefb1c8.js.map"
+    "main.css": "/Timer-and-Stopwatch/static/css/main.1780dd98.css",
+    "main.js": "/Timer-and-Stopwatch/static/js/main.ceefb1c8.js",
+    "index.html": "/Timer-and-Stopwatch/index.html",
+    "main.1780dd98.css.map": "/Timer-and-Stopwatch/static/css/main.1780dd98.css.map",
+    "main.ceefb1c8.js.map": "/Timer-and-Stopwatch/static/js/main.ceefb1c8.js.map"
   },
   "entrypoints": [
     "static/css/main.1780dd98.css",
